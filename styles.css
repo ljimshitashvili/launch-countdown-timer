@@ -107,5 +107,53 @@ footer{
     gap: 32px;
 }
 
+/* desktop version */
 
+@media (min-width: 1024px){
 
+    h1{
+        font-size: 22px;
+        line-height: 29px;
+        letter-spacing: 7.5px;
+        max-width: 450px;
+    }
+
+    .box{
+        width: 148px;
+        height: 148px;
+    }
+
+    main{
+        gap: 32px;
+    }
+
+    .top-side{
+        width: 148px;
+        height: 74px;
+        margin-top: -74px;
+    }
+
+    .box::before{
+        width: 12px;
+        height: 12px;
+        left: -6px;
+        top: 68px;
+    }
+
+    .box::after{
+        width: 12px;
+        height: 12px;
+        right: -6px;
+        top: 68px;
+    }
+
+    .digits{
+        letter-spacing: -2.4px;
+        font-size: 80px;
+    }
+
+    svg path:hover{
+        fill: #FB5E84;
+        cursor: pointer;
+    }
+}
